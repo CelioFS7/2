@@ -13,8 +13,10 @@ class ContactRepositorio {
 
     }
 
-    fun delete(contact: ContatoEntity){
-
+    fun delete(contact: ContatoEntity) {
+    }
+    fun getList(): List<ContatoEntity > {
+        return contaclist
 
 
 
